@@ -43,3 +43,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'unicorn', group: :production
+gem 'thin', group: :development
+
+gem 'newrelic_rpm' 
+# configure my app to monitor from New Relic 
